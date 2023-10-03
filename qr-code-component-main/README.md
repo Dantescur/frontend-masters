@@ -23,7 +23,7 @@ This is my first challenge at Frontend Mentor.
 ### Links
 
 - Solution URL: [https://github.com/Dantescur/frontend-masters/tree/main/qr-code-component-main/](https://github.com/Dantescur/frontend-masters/tree/main/qr-code-component-main/)
-- Live Site URL: [http://amazing-giraffe.surge.sh/](http://amazing-giraffe.surge.sh/)
+- Live Site URL: [https://amazing-giraffe.surge.sh/](https://amazing-giraffe.surge.sh/)
 
 ## My process
 
