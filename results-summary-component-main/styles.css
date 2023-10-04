@@ -19,7 +19,7 @@
 *::after {
   box-sizing: border-box;
   /* outline: red 1px solid; */
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 body {
@@ -47,25 +47,38 @@ main {
   max-width: 100%;
 }
 
+.result-container {
+  display: flex;
+  color: hsl(0, 0%, 100%);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--light-slate-blue);
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.result-box {
+  background-color: var(--light-royal-blue);
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 1.5em;
+}
+
+.result {
+  font-weight: 800;
+  font-size: 4vh;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.summary-container {
+  padding: 1.2em;
+}
 
 .skills-list {
   list-style: none;
