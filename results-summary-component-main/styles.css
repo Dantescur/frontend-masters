@@ -1,0 +1,91 @@
+:root {
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* outline: red 1px solid; */
+  overflow: hidden;
+}
+
+body {
+  font-family: 'Hanken Grotesk';
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-container,
+.summary-container {
+  flex: 1;
+  height: 100%;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.skills-list li {
+  display: flex;
+  justify-content: space-between; /* Align items and score at opposite ends */
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.skill-info {
+  display: flex;
+  align-items: center;
+}
+
+.skill-info img {
+  margin-right: 10px; /* Add some spacing between the image and text */
+}
